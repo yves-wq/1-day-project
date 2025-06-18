@@ -1,0 +1,94 @@
+@font-face {
+    font-family: logoFont;
+    src: url(../font/gomarice_tall_block.ttf);
+}
+
+@font-face {
+    font-family: main;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+#logo{
+    font-family: logoFont;
+}
+body{
+    font-family: main;
+    transition: ease 500ms;
+    text-align: center;
+}
+.code{
+    width: 300px;
+}
+b{
+    color: #0d6efd;
+}
+
+.mprojects{
+    text-align: center;
+    transition: ease 500ms;
+    text-decoration: none;
+}
+.mprojects:hover{
+    transform: scale(1.1);
+}
+
+input{
+    border-radius: 10px;
+    border: solid black;
+}
+select{
+    border-radius: 10px;
+    border: solid black;
+    text-align: center;
+    margin-top: 10px;
+}
+#calculate{
+    border-radius: 10px;
+    border: solid black;
+    margin-top: 5px;
+    background-color: white;
+    transition: ease 500ms;
+}
+#calculate:hover{
+    border: solid #0d6efd;
+}
+
+.card-img-top{
+    height: 150px;
+}
+
+.thirdMain{
+    text-align: center;
+    margin-left: 76px;
+}
+
+.programming{
+    width: 500px;
+    border-radius: 15px;
+    border: solid #0d6efd;
+
+}
+textarea{
+    resize: none;
+    height: 200px;
+    width: 650px;
+}
+.accordion{
+    text-align: center;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.social-icons a {
+    color: #6c757d;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
